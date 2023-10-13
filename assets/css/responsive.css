@@ -1,0 +1,1936 @@
+/* Responsive */
+
+@media (min-width: 1920px) {
+
+  .page-template-template-home .banner-wrapper .banner-shape {
+    width: 63%;
+    top: -259px;
+    left: 20px;
+  }
+
+  .page-template-template-home .banner-wrapper .banner-shape img {
+    width: 100%;
+  }
+
+  .category-bathroom .service-banner .banner-shape,
+  .category-garage-conversion .service-banner .banner-shape,
+  .category-pool-backyard .service-banner .banner-shape {
+    width: 60%;
+  }
+
+  .page-template-template-home .banner-wrapper .banner-content-outer {
+    padding: 90px 0 220px;
+  }
+
+  .page-template-template-contact-us .service-banner .banner-shape {
+    width: 40%;
+  }
+}
+
+@media (min-width:1581px) and (max-width: 1919px) {
+
+  .page-template-template-home .banner-wrapper .banner-shape {
+    width: 65%;
+    top: -23px;
+    left: 0;
+  }
+
+  .page-template-template-home .banner-wrapper .banner-shape img {
+    width: 100%;
+  }
+
+  .category-bathroom .service-banner .banner-shape,
+  .category-garage-conversion .service-banner .banner-shape,
+  .category-pool-backyard .service-banner .banner-shape {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1680px) {
+
+  .category-adu-garage-conversion .banner-wrapper .banner-shape,
+  .category-adu-construction .banner-wrapper .banner-shape,
+  .category-kitchen .banner-wrapper .banner-shape,
+  .category .banner-wrapper .banner-shape {
+    width: 60%;
+  }
+
+  .about-banner-wrapper .banner-shape {
+    left: 0;
+    width: 58%;
+  }
+
+}
+
+@media (max-width: 1540px) {
+  .role-pic {
+    right: -80px;
+  }
+
+  .exterior-home-remodeing-wrapper .exterior-pic {
+    right: -160px;
+  }
+
+  .bay-area-permits-pic {
+    left: -200px;
+  }
+
+  .interior-home-remodeing-wraper .banner-shape {
+    left: -160px;
+    width: 80%;
+  }
+
+  .banner-wrapper .banner-shape {
+    left: -100px;
+  }
+
+  .service-remodel-process-pic {
+    right: -190px;
+  }
+
+  .bathrom-remodel-permits-wrapper .service-remodel-process-pic {
+    left: -170px;
+  }
+
+  .bathroom-remodeling-solutions-wrapper .service-open-concept-pic {
+    left: -190px;
+  }
+
+  .category-adu-garage-conversion .banner-wrapper .banner-shape,
+  .category-adu-construction .banner-wrapper .banner-shape,
+  .category-kitchen .banner-wrapper .banner-shape,
+  .category .banner-wrapper .banner-shape {
+    left: -100px;
+    width: 70%;
+  }
+
+  .category-kitchen .service-banner .banner-text p+p+p {
+    max-width: 430px;
+  }
+
+  .about-banner-wrapper .banner-shape {
+    left: 0;
+    width: 58%;
+  }
+}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+  .logo {
+    width: 100px;
+    display: block;
+  }
+
+  .sticky .logo {
+    width: 100px;
+  }
+
+  .nav_holder {
+    padding: 10px 0;
+  }
+
+  .hdr_menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px;
+    transform: translateX(100%);
+    background: #fff;
+    overflow-y: auto;
+    transition: transform 0.5s cubic-bezier(0.07, 0.23, 0.34, 1);
+    padding: 10px 15px 20px;
+    z-index: 99;
+  }
+
+  .hdr_menu ul {
+    padding-top: 50px;
+  }
+
+  .hdr_menu ul li {
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .hdr_menu ul li.menu-item-has-children .sub-menu {
+    display: block;
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    padding: 0px 10px 0;
+    background-color: transparent;
+    box-shadow: none;
+    transform: none;
+    transition: initial !important;
+    -webkit-transition: initial !important;
+  }
+
+  .hdr_menu ul li.menu-item-has-children ul li {
+    padding: 5px 0;
+    line-height: 1.5;
+  }
+
+  .hdr_menu li {
+    margin-right: 0;
+    padding-right: 0;
+    border: 0;
+    margin-bottom: 0px;
+  }
+
+  .hdr_menu li a {
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    color: #000000;
+    padding: 5px 0;
+  }
+
+  .hdr_menu li a:hover {
+    color: #688238 !important;
+  }
+
+  .hdr_menu li a::before {
+    display: none;
+  }
+
+  .hdr_menu li:hover a {
+    color: #000000 !important;
+  }
+
+
+
+  .hdr_menu li.menu-item-has-children .sub-menu a {
+    color: #000;
+    font-size: 15px;
+  }
+
+  .hdr_menu li.menu-item-has-children .sub-menu a:hover {
+    color: #688238;
+    padding-left: 0;
+  }
+
+  .hdr_menu li.menu-item-has-children.current-menu-item>a {
+    color: #688238;
+  }
+
+  .hdr_menu li.menu-item-has-children.current-menu-item>a:hover {
+    color: #688238;
+  }
+
+  .hdr_menu li>a::after {
+    display: none;
+  }
+
+  .sticky .hdr_menu li.current-menu-item a {
+    color: #688238;
+  }
+
+  .sticky .hdr_menu li:hover a {
+    color: #688238;
+  }
+
+  .sticky .hdr_menu li a {
+    color: #000000;
+    background-color: transparent;
+  }
+
+  .menu_btn {
+    width: 30px;
+    display: block;
+  }
+
+  .menu_btn span {
+    height: 2px;
+    display: block;
+    background: var(--primary-color);
+    margin-left: auto;
+    transition: 0.4s;
+  }
+
+  .menu_btn span:nth-child(2) {
+    width: 80%;
+  }
+
+  .menu_btn span+span {
+    margin-top: 5px;
+  }
+
+  .menu_trigger {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 100;
+    transform: translateY(-50%);
+  }
+
+  .mobile_menu_active {
+    overflow: hidden;
+  }
+
+  .mobile_menu_active .menu_trigger {
+    right: 15px;
+    top: 40px;
+    transform: none;
+    position: fixed;
+  }
+
+  .mobile_menu_active .hdr_menu {
+    transform: translateX(0px);
+  }
+
+  .mobile_menu_active .overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 30;
+  }
+
+  .mobile_menu_active .menu_btn span {
+    background: #688238;
+  }
+
+  .mobile_menu_active .menu_btn span:first-child {
+    transform: rotate(45deg);
+  }
+
+  .mobile_menu_active .menu_btn span:last-child {
+    transform: rotate(-45deg);
+  }
+
+  .mobile_menu_active .menu_btn span:nth-child(2) {
+    display: none;
+  }
+
+  .mobile_menu_active .menu_btn span+span {
+    margin-top: -2px;
+    width: 100%;
+  }
+
+  .mobile_menu_active .hddr_inr {
+    position: static;
+  }
+
+  .mobile_menu_active .sticky .nav_holder {
+    position: fixed;
+  }
+
+  .mobile_menu_active .nav_inr {
+    position: static;
+  }
+
+  .overlay {
+    overflow: hidden;
+  }
+
+  .nav_inr {
+    position: relative;
+  }
+
+  .sub_menu_opener {
+    display: block;
+    pointer-events: none;
+  }
+
+  .responisve-logo {
+    display: block;
+    width: 270px;
+  }
+
+  .header-social-list-outer {
+    display: none;
+  }
+
+  .header-social-list-outer.responsive-header-social-btn {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsive-menu-additional-components {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-start-project-btn {
+    margin-left: 0;
+    margin-right: 50px;
+  }
+
+  .top-header-logo {
+    display: none;
+  }
+
+  .header-top-bar-outer .header-top-bar-holder .top-header-right-content {
+    margin-left: 0;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .contact-btn {
+    margin-right: 50px;
+  }
+
+  .hdr_menu li.menu-item-has-children .sub-menu li.current-menu-item a {
+    padding-left: 0;
+  }
+
+  .header-contact-btn {
+    margin-right: 60px;
+  }
+
+  .responsive-menu-additional-components .header-social-links {
+    display: block;
+  }
+
+  .banner-form-area .contact-form-outer [class*=col] {
+    flex: 0 0 auto;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .role-pic,
+  .exterior-home-remodeing-wrapper .exterior-pic,
+  .bay-area-permits-pic {
+    position: static;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .role-contnet,
+  .bay-area-content-outer {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .role-contnet p,
+  .rol-list,
+  .exterior-home-remodeing-wrapper .section-heading,
+  .exterior-home-remodeing-wrapper .section-heading p {
+    max-width: 100%;
+  }
+
+  .bay-area-permits-pic img,
+  .guide-pic img,
+  .milpitas-permits-pic img {
+    width: 100%;
+  }
+
+  .guide-content {
+    margin-top: 30px;
+  }
+
+  .milpitas-permits-pic {
+    margin: 30px 0;
+  }
+
+  .work-together-pic {
+    display: none;
+  }
+
+  .baner-social-list-holder ul {
+    text-align: center;
+  }
+
+  .logo-pic img {
+    width: 100%;
+  }
+
+  .dream-service-remodel-content {
+    margin-top: 30px;
+  }
+
+  .service-plan-row [class*=col],
+  .permts-process-row [class*=col] {
+    width: 50%;
+    max-width: 50%;
+    flex: auto;
+  }
+
+  .service-remodel-styles-content {
+    padding-left: 0;
+  }
+
+  .more-space-wrapper .bay-area-permits-pic,
+  .service-open-concept-wrapper .service-open-concept-pic,
+  .service-remodel-process-pic {
+    position: static;
+    -webkit-mask-image: none;
+    mask-image: no;
+    margin-bottom: 30px;
+  }
+
+  .service-remodel-process-pic img,
+  .more-space-wrapper .bay-area-permits-pic img,
+  .service-open-concept-wrapper .service-open-concept-pic img {
+    width: 100%;
+  }
+
+
+  .service-open-concept-wrapper {
+    padding-bottom: 70px;
+  }
+
+  .more-space-wrapper .bay-area-content-outer {
+    max-width: 100%;
+  }
+
+  .resale-value-pic {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .cta-wrapper .cta-pic {
+    display: none;
+  }
+
+  .service-cost-pic {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .service-form-outer {
+    margin-top: 60px;
+  }
+
+  .services-list-outer {
+    margin-bottom: 40px;
+  }
+
+  .sub_menu_opener .fa-chevron-down:before {
+    content: "\f107";
+  }
+
+  .bathroom-remodeling-solutions-wrapper .section-heading {
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .service-open-concept-wrapper .section-heading p {
+    max-width: 100%;
+  }
+
+  .complete-batroom-remodel-wrapper .dream-service-remodel-content {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .plan-your-bathroom-service-wrapper .service-plan-row [class*=col] {
+    width: 50%;
+  }
+
+  .bathrom-remodel-permits-wrapper .service-remodel-process-pic {
+    -webkit-mask-image: none;
+    mask-image: none;
+    position: static;
+  }
+
+  .service-table-outer table th,
+  .service-table-outer table td {
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .bathrom-remodel-tips-wrapper {
+    padding-bottom: 0;
+  }
+
+  .baner-social-list-outer {
+    position: relative;
+    z-index: 2;
+  }
+
+
+
+  .types-of-adu-content {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .types-of-adu-wrapper .row:nth-child(even) .types-of-adu-content {
+    padding-left: 0;
+  }
+
+  .adu-regulations-pic img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .adu-regulations-content {
+    padding-left: 0;
+  }
+
+  .adu-regulations-row-outer .row:nth-child(even) .adu-regulations-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .adu-floor-plan-wrapper .resale-value-pic {
+    position: relative;
+  }
+
+  .adu-consideration-wrapper .service-plan-row [class*=col] {
+    width: 50%;
+  }
+
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(1),
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(2),
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(3) {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .custom-design-project-wrapper .service-plan-row [class*=col] {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .our-approach-pic img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .gallery-tab-wrapper .nav-item {
+    width: calc(50% - 10px);
+  }
+
+  .gallery-tab-wrapper .nav-link {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .input-field {
+    margin-bottom: 15px;
+  }
+
+  .top-header-holder {
+    display: block;
+    text-align: center;
+  }
+
+  .top-header-holder>div {
+    margin-bottom: 15px;
+  }
+
+  .header-contact-btn .btn-secondary {
+    display: none;
+  }
+
+  .header-contact-btn .btn-primary {
+    font-size: 15px;
+    padding: 7px 12px;
+  }
+
+  .banner-wrapper {
+    padding: 60px 0;
+  }
+
+  .banner-wrapper .banner-text {
+    position: relative;
+    z-index: 2;
+  }
+
+  .banner-wrapper .banner-text h1 {
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .banner-wrapper .banner-text p {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .banner-wrapper::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #000;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  .section-padding {
+    padding: 50px 0;
+  }
+
+  .section-heading h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .banner-wrapper .banner-shape {
+    display: none;
+  }
+
+  .banner-wrapper .banner-content-outer {
+    padding: 0px 0 40px;
+  }
+
+  .banner-form-area .holder {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .banner-form-area .data-left {
+    width: 100%;
+    min-width: 100%;
+    padding-bottom: 0;
+  }
+
+  .banner-form-area .data-right {
+    padding-left: 0;
+    border-left: 0;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+
+  .rol-list ul {
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+
+  .interior-home-remodeing-wraper .banner-shape {
+    display: none;
+  }
+
+  .exterior-pic {
+    margin-bottom: 30px;
+  }
+
+  .permits-list-outer .list-item h3 {
+    font-size: 21px;
+  }
+
+  .guide-content h3,
+  .milpitas-permits-content h3 {
+    font-size: 26px;
+  }
+
+  .functionality-improvment-wrapper .row {
+    padding: 15px 5px;
+    padding-bottom: 10px;
+    position: static;
+    transform: none;
+    margin: 0;
+  }
+
+  .functionality-improvment-list {
+    margin-top: 25px;
+  }
+
+  .why-us-list-outer .list-item {
+    margin-right: 0;
+    padding: 15px;
+    padding-left: 25px;
+    border-radius: 6px;
+    width: 100%;
+  }
+
+  .why-us-list-outer .list-item::before {
+    top: 19px;
+    left: 3px;
+  }
+
+  .work-together-wrapper {
+    padding: 40px 0;
+  }
+
+  .footer-wrapper>.container::before {
+    display: none;
+  }
+
+  .baner-social-list-holder li a {
+    font-size: 0;
+  }
+
+  .baner-social-list-holder li:not(:last-child)::before {
+    display: none;
+  }
+
+  .baner-social-list-holder li {
+    padding-right: 0;
+    margin-right: 20px;
+  }
+
+  .service-banner {
+    padding-bottom: 0;
+  }
+
+  .plan-your-service-wrapper .section-heading h2,
+  .dream-service-remodel-wrapper .section-heading h2,
+  .service-open-concept-content h2,
+  .bay-area-content-outer h2,
+  .service-permits-wrapper .section-heading h2,
+  .resale-value-content h2,
+  .service-cost-content h2,
+  .service-remodel-process-content h2,
+  .faq-wrapper .section-heading h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .plan-your-service-wrapper h3 {
+    font-size: 24px;
+  }
+
+  .service-plan-row [class*=col],
+  .permts-process-row [class*=col] {
+    width: 100%;
+    max-width: 100%;
+    flex: auto;
+  }
+
+  .service-plan-box h3 {
+    font-size: 16px;
+  }
+
+  .service-plan-box {
+    padding: 15px;
+    min-height: auto;
+  }
+
+  .service-layout-list-outer {
+    position: relative;
+    padding: 35px 15px;
+  }
+
+  .service-layout-list-outer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #000;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  .service-layout-list-outer .content {
+    position: relative;
+  }
+
+  .plan-your-service-wrapper {
+    padding-bottom: 0;
+  }
+
+  .permts-process-box {
+    padding: 15px;
+    min-height: auto;
+  }
+
+  .cta-wrapper {
+    padding: 30px 0;
+  }
+
+  .cta-wrapper .holder {
+    display: block !important;
+  }
+
+  .cta-wrapper .section-heading {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .faq_acrdn .accordion-item .accordion-header .accordion-button {
+    font-size: 16px;
+  }
+
+  .service-form-outer .contact-form-outer p {
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .service-form-outer .contact-form-holder {
+    padding: 20px;
+  }
+
+  .service-form-outer .contact-form-holder .input-field textarea.form-control {
+    height: 120px;
+  }
+
+  .related-articles-wrapper .section-heading h2 {
+    font-size: 25px;
+  }
+
+  .adu-consideration-wrapper .service-plan-row [class*=col],
+  .adu-process-wrapper .service-plan-row [class*=col] {
+    width: 100%;
+  }
+
+  .types-of-adu-content h3 {
+    font-size: 26px;
+  }
+
+  .related-articles-wrapper .section-heading>p {
+    font-size: 22px;
+  }
+
+  .adu-regulations-wrapper .section-heading h2 {
+    font-size: 30px;
+  }
+
+  .adu-regulations-wrapper {
+    padding: 0;
+  }
+
+  .popular-types-home-addition-wrapper .section-heading h2 {
+    font-size: 28px;
+  }
+
+  .home-addition-types-box {
+    padding: 15px;
+  }
+
+  .home-addition-types-box h3 {
+    font-size: 22px;
+
+  }
+
+  .home-addition-plan-wrapper .logo-pic {
+    margin-bottom: 25px;
+  }
+
+  .home-addition-construction-wrapper {
+    padding-bottom: 0;
+  }
+
+  .page-template-template-home .dream-service-remodel-content {
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(1),
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(2),
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(3) {
+    width: 100%;
+  }
+
+  .pool-construction-service-wrapper {
+    padding-bottom: 0;
+  }
+
+  .pool-construction-service-wrapper .section-heading {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .custom-design-project-wrapper .service-plan-row [class*=col] {
+    width: 100%;
+  }
+
+  .contact-banner-wrapper {
+    padding-bottom: 0;
+    background-position: right;
+  }
+
+  .contact-banner-wrapper .banner-content-outer {
+    padding: 0px 0 20px;
+    justify-content: center;
+  }
+
+  .contact-us-main-wrapper .contact-form-outer {
+    padding: 20px 15px;
+  }
+
+  .contact-number-list {
+    flex-direction: column;
+  }
+}
+
+/* Responsive */
+
+@media (min-width: 1920px) {
+
+  .page-template-template-home .banner-wrapper .banner-shape {
+    width: 67%;
+    top: -388px;
+    left: 0;
+  }
+
+  .page-template-template-home .banner-wrapper .banner-shape img {
+    width: 100%;
+  }
+
+}
+
+@media (min-width:1581px) and (max-width: 1919px) {
+
+  .page-template-template-home .banner-wrapper .banner-shape {
+    width: 62%;
+    top: -248px;
+    left: 0;
+  }
+
+  .page-template-template-home .banner-wrapper .banner-shape img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1680px) {
+
+  .category-adu-garage-conversion .banner-wrapper .banner-shape,
+  .category-adu-construction .banner-wrapper .banner-shape,
+  .category-kitchen .banner-wrapper .banner-shape,
+  .category .banner-wrapper .banner-shape {
+    width: 60%;
+  }
+
+  .about-banner-wrapper .banner-shape {
+    left: 0;
+    width: 58%;
+  }
+
+}
+
+@media (max-width: 1540px) {
+  .role-pic {
+    right: -80px;
+  }
+
+  .exterior-home-remodeing-wrapper .exterior-pic {
+    right: -230px;
+  }
+
+  .bay-area-permits-pic {
+    left: -200px;
+  }
+
+  .interior-home-remodeing-wraper .banner-shape {
+    left: -160px;
+    width: 80%;
+  }
+
+  .banner-wrapper:not(.contact-banner-wrapper) .banner-shape {
+    left: -128px;
+    width: 70%;
+    top: -103px;
+  }
+
+  .service-remodel-process-pic {
+    right: -190px;
+  }
+
+  .bathrom-remodel-permits-wrapper .service-remodel-process-pic {
+    left: -170px;
+  }
+
+  .bathroom-remodeling-solutions-wrapper .service-open-concept-pic {
+    left: -190px;
+  }
+
+  .category-adu-garage-conversion .banner-wrapper .banner-shape,
+  .category-adu-construction .banner-wrapper .banner-shape,
+  .category-kitchen .banner-wrapper .banner-shape,
+  .category .banner-wrapper .banner-shape {
+    left: -100px;
+    width: auto;
+  }
+
+  .category-kitchen .service-banner .banner-text p+p+p {
+    max-width: 430px;
+  }
+
+  .about-banner-wrapper .banner-shape {
+    left: 0;
+    width: 58%;
+  }
+}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+  .logo {
+    width: 100px;
+    display: block;
+  }
+
+  .sticky .logo {
+    width: 100px;
+  }
+
+  .nav_holder {
+    padding: 10px 0;
+  }
+
+  .hdr_menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px;
+    transform: translateX(100%);
+    background: #fff;
+    overflow-y: auto;
+    transition: transform 0.5s cubic-bezier(0.07, 0.23, 0.34, 1);
+    padding: 10px 15px 20px;
+    z-index: 99;
+  }
+
+  .hdr_menu ul {
+    padding-top: 50px;
+  }
+
+  .hdr_menu ul li {
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .hdr_menu ul li.menu-item-has-children .sub-menu {
+    display: block;
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    padding: 0px 10px 0;
+    background-color: transparent;
+    box-shadow: none;
+    transform: none;
+    transition: initial !important;
+    -webkit-transition: initial !important;
+  }
+
+  .hdr_menu ul li.menu-item-has-children ul li {
+    padding: 5px 0;
+    line-height: 1.5;
+  }
+
+  .hdr_menu li {
+    margin-right: 0;
+    padding-right: 0;
+    border: 0;
+    margin-bottom: 0px;
+  }
+
+  .hdr_menu li a {
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    color: #000000;
+    padding: 5px 0;
+  }
+
+  .hdr_menu li a:hover {
+    color: #688238 !important;
+  }
+
+  .hdr_menu li a::before {
+    display: none;
+  }
+
+  .hdr_menu li:hover a {
+    color: #000000 !important;
+  }
+
+
+
+  .hdr_menu li.menu-item-has-children .sub-menu a {
+    color: #000;
+    font-size: 15px;
+  }
+
+  .hdr_menu li.menu-item-has-children .sub-menu a:hover {
+    color: #688238;
+    padding-left: 0;
+  }
+
+  .hdr_menu li.menu-item-has-children.current-menu-item>a {
+    color: #688238;
+  }
+
+  .hdr_menu li.menu-item-has-children.current-menu-item>a:hover {
+    color: #688238;
+  }
+
+  .hdr_menu li>a::after {
+    display: none;
+  }
+
+  .sticky .hdr_menu li.current-menu-item a {
+    color: #688238;
+  }
+
+  .sticky .hdr_menu li:hover a {
+    color: #688238;
+  }
+
+  .sticky .hdr_menu li a {
+    color: #000000;
+    background-color: transparent;
+  }
+
+  .menu_btn {
+    width: 30px;
+    display: block;
+  }
+
+  .menu_btn span {
+    height: 2px;
+    display: block;
+    background: var(--primary-color);
+    margin-left: auto;
+    transition: 0.4s;
+  }
+
+  .menu_btn span:nth-child(2) {
+    width: 80%;
+  }
+
+  .menu_btn span+span {
+    margin-top: 5px;
+  }
+
+  .menu_trigger {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 100;
+    transform: translateY(-50%);
+  }
+
+  .mobile_menu_active {
+    overflow: hidden;
+  }
+
+  .mobile_menu_active .menu_trigger {
+    right: 15px;
+    top: 40px;
+    transform: none;
+    position: fixed;
+  }
+
+  .mobile_menu_active .hdr_menu {
+    transform: translateX(0px);
+  }
+
+  .mobile_menu_active .overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 30;
+  }
+
+  .mobile_menu_active .menu_btn span {
+    background: #688238;
+  }
+
+  .mobile_menu_active .menu_btn span:first-child {
+    transform: rotate(45deg);
+  }
+
+  .mobile_menu_active .menu_btn span:last-child {
+    transform: rotate(-45deg);
+  }
+
+  .mobile_menu_active .menu_btn span:nth-child(2) {
+    display: none;
+  }
+
+  .mobile_menu_active .menu_btn span+span {
+    margin-top: -2px;
+    width: 100%;
+  }
+
+  .mobile_menu_active .hddr_inr {
+    position: static;
+  }
+
+  .mobile_menu_active .sticky .nav_holder {
+    position: fixed;
+  }
+
+  .mobile_menu_active .nav_inr {
+    position: static;
+  }
+
+  .overlay {
+    overflow: hidden;
+  }
+
+  .nav_inr {
+    position: relative;
+  }
+
+  .sub_menu_opener {
+    display: block;
+    pointer-events: none;
+  }
+
+  .responisve-logo {
+    display: block;
+    width: 270px;
+  }
+
+  .header-social-list-outer {
+    display: none;
+  }
+
+  .header-social-list-outer.responsive-header-social-btn {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsive-menu-additional-components {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-start-project-btn {
+    margin-left: 0;
+    margin-right: 50px;
+  }
+
+  .top-header-logo {
+    display: none;
+  }
+
+  .header-top-bar-outer .header-top-bar-holder .top-header-right-content {
+    margin-left: 0;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .contact-btn {
+    margin-right: 50px;
+  }
+
+  .hdr_menu li.menu-item-has-children .sub-menu li.current-menu-item a {
+    padding-left: 0;
+  }
+
+  .header-contact-btn {
+    margin-right: 60px;
+  }
+
+  .responsive-menu-additional-components .header-social-links {
+    display: block;
+  }
+
+  .banner-form-area .contact-form-outer [class*=col] {
+    flex: 0 0 auto;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .role-pic,
+  .exterior-home-remodeing-wrapper .exterior-pic,
+  .bay-area-permits-pic {
+    position: static;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .role-contnet,
+  .bay-area-content-outer {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .role-contnet p,
+  .rol-list,
+  .exterior-home-remodeing-wrapper .section-heading,
+  .exterior-home-remodeing-wrapper .section-heading p {
+    max-width: 100%;
+  }
+
+  .bay-area-permits-pic img,
+  .guide-pic img,
+  .milpitas-permits-pic img {
+    width: 100%;
+  }
+
+  .guide-content {
+    margin-top: 30px;
+  }
+
+  .milpitas-permits-pic {
+    margin: 30px 0;
+  }
+
+  .work-together-pic {
+    display: none;
+  }
+
+  .baner-social-list-holder ul {
+    text-align: center;
+  }
+
+  .logo-pic img {
+    width: 100%;
+  }
+
+  .dream-service-remodel-content {
+    margin-top: 30px;
+  }
+
+  .service-plan-row [class*=col],
+  .permts-process-row [class*=col] {
+    width: 50%;
+    max-width: 50%;
+    flex: auto;
+  }
+
+  .service-remodel-styles-content {
+    padding-left: 0;
+  }
+
+  .more-space-wrapper .bay-area-permits-pic,
+  .service-open-concept-wrapper .service-open-concept-pic,
+  .service-remodel-process-pic {
+    position: static;
+    -webkit-mask-image: none;
+    mask-image: no;
+    margin-bottom: 30px;
+  }
+
+  .service-remodel-process-pic img,
+  .more-space-wrapper .bay-area-permits-pic img,
+  .service-open-concept-wrapper .service-open-concept-pic img {
+    width: 100%;
+  }
+
+
+  .service-open-concept-wrapper {
+    padding-bottom: 70px;
+  }
+
+  .more-space-wrapper .bay-area-content-outer {
+    max-width: 100%;
+  }
+
+  .resale-value-pic {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .cta-wrapper .cta-pic {
+    display: none;
+  }
+
+  .service-cost-pic {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .service-form-outer {
+    margin-top: 60px;
+  }
+
+  .services-list-outer {
+    margin-bottom: 40px;
+  }
+
+  .sub_menu_opener .fa-chevron-down:before {
+    content: "\f107";
+  }
+
+  .bathroom-remodeling-solutions-wrapper .section-heading {
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .service-open-concept-wrapper .section-heading p {
+    max-width: 100%;
+  }
+
+  .complete-batroom-remodel-wrapper .dream-service-remodel-content {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .plan-your-bathroom-service-wrapper .service-plan-row [class*=col] {
+    width: 50%;
+  }
+
+  .bathrom-remodel-permits-wrapper .service-remodel-process-pic {
+    -webkit-mask-image: none;
+    mask-image: none;
+    position: static;
+  }
+
+  .service-table-outer table th,
+  .service-table-outer table td {
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .bathrom-remodel-tips-wrapper {
+    padding-bottom: 0;
+  }
+
+  .baner-social-list-outer {
+    position: relative;
+    z-index: 2;
+  }
+
+
+
+  .types-of-adu-content {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .types-of-adu-wrapper .row:nth-child(even) .types-of-adu-content {
+    padding-left: 0;
+  }
+
+  .adu-regulations-pic img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .adu-regulations-content {
+    padding-left: 0;
+  }
+
+  .adu-regulations-row-outer .row:nth-child(even) .adu-regulations-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .adu-floor-plan-wrapper .resale-value-pic {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .adu-consideration-wrapper .service-plan-row [class*=col] {
+    width: 50%;
+  }
+
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(1),
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(2),
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(3) {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .custom-design-project-wrapper .service-plan-row [class*=col] {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .our-approach-pic img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .input-field {
+    margin-bottom: 15px;
+  }
+
+  .top-header-holder {
+    display: block;
+    text-align: center;
+  }
+
+  .top-header-holder>div {
+    margin-bottom: 15px;
+  }
+
+  .header-contact-btn .btn-secondary {
+    display: none;
+  }
+
+  .header-contact-btn .btn-primary {
+    font-size: 15px;
+    padding: 7px 12px;
+  }
+
+  .banner-wrapper {
+    padding: 60px 0;
+  }
+
+  .banner-wrapper .banner-text {
+    position: relative;
+    z-index: 2;
+  }
+
+  .banner-wrapper .banner-text h1 {
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .banner-wrapper .banner-text p,
+  .banner-wrapper .banner-text p span {
+    color: #fff !important;
+    font-size: 16px !important;
+  }
+
+  .banner-wrapper::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #000;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  .section-padding {
+    padding: 50px 0;
+  }
+
+  .section-heading h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .banner-wrapper .banner-shape {
+    display: none;
+  }
+
+  .banner-wrapper .banner-content-outer {
+    padding: 0px 0 40px;
+  }
+
+  .banner-form-area .holder {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .banner-form-area .data-left {
+    width: 100%;
+    min-width: 100%;
+    padding-bottom: 0;
+  }
+
+  .banner-form-area .data-right {
+    padding-left: 0;
+    border-left: 0;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+
+  .rol-list ul {
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+
+  .interior-home-remodeing-wraper .banner-shape {
+    display: none;
+  }
+
+  .exterior-pic {
+    margin-bottom: 30px;
+  }
+
+  .permits-list-outer .list-item h3 {
+    font-size: 21px;
+  }
+
+  .guide-content h3,
+  .milpitas-permits-content h3 {
+    font-size: 26px;
+  }
+
+  .functionality-improvment-wrapper .row {
+    padding: 15px 5px;
+    padding-bottom: 10px;
+    position: static;
+    transform: none;
+    margin: 0;
+  }
+
+  .functionality-improvment-list {
+    margin-top: 25px;
+  }
+
+  .why-us-list-outer .list-item {
+    margin-right: 0;
+    padding: 15px;
+    padding-left: 25px;
+    border-radius: 6px;
+    width: 100%;
+  }
+
+  .why-us-list-outer .list-item::before {
+    top: 19px;
+    left: 3px;
+  }
+
+  .work-together-wrapper {
+    padding: 40px 0;
+  }
+
+  .footer-wrapper>.container::before {
+    display: none;
+  }
+
+  .baner-social-list-holder li a {
+    font-size: 0;
+  }
+
+  .baner-social-list-holder li:not(:last-child)::before {
+    display: none;
+  }
+
+  .baner-social-list-holder li {
+    padding-right: 0;
+    margin-right: 20px;
+  }
+
+  .service-banner {
+    padding-bottom: 0;
+  }
+
+  .plan-your-service-wrapper .section-heading h2,
+  .dream-service-remodel-wrapper .section-heading h2,
+  .service-open-concept-content h2,
+  .bay-area-content-outer h2,
+  .service-permits-wrapper .section-heading h2,
+  .resale-value-content h2,
+  .service-cost-content h2,
+  .service-remodel-process-content h2,
+  .faq-wrapper .section-heading h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .plan-your-service-wrapper h3 {
+    font-size: 24px;
+  }
+
+  .service-plan-row [class*=col],
+  .permts-process-row [class*=col] {
+    width: 100%;
+    max-width: 100%;
+    flex: auto;
+  }
+
+  .service-plan-box h3 {
+    font-size: 16px;
+  }
+
+  .service-plan-box {
+    padding: 15px;
+    min-height: auto;
+  }
+
+  .service-layout-list-outer {
+    position: relative;
+    padding: 35px 15px;
+  }
+
+  .service-layout-list-outer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #000;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  .service-layout-list-outer .content {
+    position: relative;
+  }
+
+  .plan-your-service-wrapper {
+    padding-bottom: 0;
+  }
+
+  .permts-process-box {
+    padding: 15px;
+    min-height: auto;
+  }
+
+  .cta-wrapper {
+    padding: 30px 0;
+  }
+
+  .cta-wrapper .holder {
+    display: block !important;
+  }
+
+  .cta-wrapper .section-heading {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .faq_acrdn .accordion-item .accordion-header .accordion-button {
+    font-size: 16px;
+  }
+
+  .service-form-outer .contact-form-outer p {
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .service-form-outer .contact-form-holder {
+    padding: 20px;
+  }
+
+  .service-form-outer .contact-form-holder .input-field textarea.form-control {
+    height: 120px;
+  }
+
+  .related-articles-wrapper .section-heading h2 {
+    font-size: 25px;
+  }
+
+  .adu-consideration-wrapper .service-plan-row [class*=col],
+  .adu-process-wrapper .service-plan-row [class*=col] {
+    width: 100%;
+  }
+
+  .types-of-adu-content h3 {
+    font-size: 26px;
+  }
+
+  .related-articles-wrapper .section-heading>p {
+    font-size: 22px;
+  }
+
+  .adu-regulations-wrapper .section-heading h2 {
+    font-size: 30px;
+  }
+
+  .adu-regulations-wrapper {
+    padding: 0;
+  }
+
+  .popular-types-home-addition-wrapper .section-heading h2 {
+    font-size: 28px;
+  }
+
+  .home-addition-types-box {
+    padding: 15px;
+  }
+
+  .home-addition-types-box h3 {
+    font-size: 22px;
+
+  }
+
+  .home-addition-plan-wrapper .logo-pic {
+    margin-bottom: 25px;
+  }
+
+  .home-addition-construction-wrapper {
+    padding-bottom: 0;
+  }
+
+  .page-template-template-home .dream-service-remodel-content {
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(1),
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(2),
+  .modern-pool-space-wrapper .service-plan-row [class*=col-]:nth-child(3) {
+    width: 100%;
+  }
+
+  .pool-construction-service-wrapper {
+    padding-bottom: 0;
+  }
+
+  .pool-construction-service-wrapper .section-heading {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .custom-design-project-wrapper .service-plan-row [class*=col] {
+    width: 100%;
+  }
+
+  .contact-banner-wrapper {
+    padding-bottom: 0;
+    background-position: right;
+  }
+
+  .contact-banner-wrapper .banner-content-outer {
+    padding: 0px 0 20px;
+    justify-content: center;
+  }
+
+  .contact-us-main-wrapper .contact-form-outer {
+    padding: 20px 15px;
+  }
+
+  .contact-number-list {
+    flex-direction: column;
+  }
+
+  .short-banner-wrapper {
+    padding-bottom: 0;
+  }
+
+  .post-content-wrapper {
+    padding-top: 50px;
+  }
+
+  .post-content-holder p strong {
+    font-size: 17px;
+  }
+
+  .post-content-holder p {
+    margin-bottom: 14px;
+  }
+
+  .post-content-holder h2 {
+    font-size: 24px;
+  }
+
+  .post-content-holder h3 {
+    font-size: 20px;
+  }
+
+  .plan-your-bathroom-service-wrapper .service-plan-row [class*=col] {
+    width: 100%;
+  }
+
+  .interior-home-remodeing-wraper {
+    min-height: auto;
+  }
+
+  .gallery-tab-wrapper .nav-item {
+    width: 100%;
+  }
+
+  .awards-wrapper .awards-pic {
+    gap: 15px;
+  }
+
+  .awards-wrapper {
+    padding-top: 0;
+  }
+}
