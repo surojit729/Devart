@@ -124,6 +124,9 @@
 }
 
 @media (max-width: 991px) {
+	.mobile-blocks{
+		display:block !important;
+	}
 	.logo {
 		width: 100px;
 		display: block;
@@ -239,7 +242,7 @@
 
 	.sticky .hdr_menu li a {
 		color: #000000;
-		background-color: transparent;
+	
 	}
 
 	.menu_btn {
