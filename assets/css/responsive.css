@@ -124,8 +124,8 @@
 }
 
 @media (max-width: 991px) {
-	.mobile-blocks{
-		display:block !important;
+	.mobile-blocks {
+		display: block !important;
 	}
 	.logo {
 		width: 100px;
@@ -242,7 +242,6 @@
 
 	.sticky .hdr_menu li a {
 		color: #000000;
-	
 	}
 
 	.menu_btn {
@@ -694,6 +693,27 @@
 	.table-holder {
 		overflow-x: scroll;
 	}
+	.banner-wrapper .banner-text h1 {
+		font-size: 40px;
+	}
+	.landing-banner-form-outer {
+		padding: 0 15px;
+	}
+	.landing-banner::before {
+		height: 222px;
+	}
+	.adu-project-wrapper [class*="col"]:nth-child(3),
+	.adu-project-wrapper [class*="col"]:nth-child(4),
+	.adu-project-wrapper [class*="col"]:nth-child(1),
+	.adu-project-wrapper [class*="col"]:nth-child(2),
+	.adu-project-wrapper [class*="col"]:nth-child(5),
+	.adu-project-wrapper [class*="col"]:nth-child(6) {
+		width: 50%;
+	}
+	.get-started-data {
+		flex-direction: column;
+		align-items: flex-start;
+	}
 }
 
 @media (max-width: 767px) {
@@ -1098,6 +1118,92 @@
 	.local-law-info {
 		padding: 20px 15px;
 		margin-bottom: 30px;
+	}
+	.full-service-design-wrapper .section-heading {
+		position: static;
+		transform: none;
+		max-width: 100%;
+		padding: 20px 0;
+	}
+	.landing-header .header-contact-btn {
+		margin-right: 0;
+	}
+	.landing-banner-form-outer {
+		position: static;
+	}
+	.landing-banner::before {
+		height: 100%;
+	}
+	.landing-banner {
+		padding: 250px 0 400px;
+	}
+	.landing-banner-form-outer .ttile p {
+		font-size: 22px;
+	}
+	.landing-banner {
+		padding: 150px 0 60px;
+	}
+	.landing-why-us-card {
+		padding: 15px;
+	}
+	.landing-why-us-card h3 {
+		font-size: 20px;
+	}
+	.landing-why-us-card .media {
+		min-width: 40px;
+		max-width: 40px;
+		margin-right: 15px;
+	}
+	.landing-cta-wrapper .section-heading h2 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	.landing-cta-wrapper {
+		padding: 40px 0;
+	}
+	.adu-project-wrapper .section-heading {
+		padding: 30px 0 20px;
+	}
+	.adu-project-wrapper [class*="col"]:nth-child(3),
+	.adu-project-wrapper [class*="col"]:nth-child(4),
+	.adu-project-wrapper [class*="col"]:nth-child(1),
+	.adu-project-wrapper [class*="col"]:nth-child(2),
+	.adu-project-wrapper [class*="col"]:nth-child(5),
+	.adu-project-wrapper [class*="col"]:nth-child(6) {
+		width: 100%;
+	}
+	.adu-project-card .data {
+		left: 15px;
+		padding-left: 10px;
+		border-width: 2px;
+	}
+	.design-build-wrapper [class*="col-"] {
+		margin-bottom: 70px;
+		padding: 0;
+	}
+	.get-started-data {
+		padding: 20px 15px;
+	}
+	.get-started-data .section-heading h2 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	.get-started-data .action-item {
+		text-align: left;
+	}
+	.get-started-project-wrapper {
+		height: 500px;
+	}
+	.adu-project-wrapper .row {
+		margin: 0;
+	}
+	.design-build-wrapper .row {
+		margin: 0;
+		margin-bottom: -40px;
+	}
+	.landing-header .header-contact-btn .btn {
+		font-size: 16px;
+		padding: 12px 20px;
 	}
 }
 
