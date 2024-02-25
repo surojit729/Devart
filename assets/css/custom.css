@@ -3649,7 +3649,7 @@ a.check-btn {
 	text-align: center;
 	padding: 0;
 }
-.banner-wrapper .banner-text h1 {
+.landing-banner .banner-text h1 {
 	font-size: 60px;
 	color: #fff;
 }
@@ -3691,6 +3691,9 @@ a.check-btn {
 	max-width: 100%;
 	margin: 0;
 	height: 50px;
+}
+.landing-banner-form-outer .submit-field p {
+	height: 100%;
 }
 .landing-banner-form-outer .submit-field .btn {
 	font-family: var(--mulish);
